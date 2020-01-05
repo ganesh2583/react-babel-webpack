@@ -1,6 +1,8 @@
 # react-babel-webpack
 Simple Boiler Plate with React Babel 7 and Webpack 4. 
 
+Clone the repository and run `npm install`
+
 ## Commands 
 
 Start the application in Dev Mode on port : 8080
