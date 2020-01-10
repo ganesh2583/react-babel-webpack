@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.js --mode development --hot --history-api-fallback",
     "test": "jest",
+    "setup": "npm install",
     "build:prod": "webpack -p --progress --config=webpack.prod.js --mode production",
     "start:prod": "webpack -p --progress --config=webpack.prod.js --mode production && babel-node server.js"
   },
