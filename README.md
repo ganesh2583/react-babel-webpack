@@ -30,6 +30,9 @@ index.html  191 bytes          [emitted]
 Start the Production build on port : 8090
 `npm run start:prod`
 
+To run flow
+`npm run flow`
+
 ## Description
 
 This is a basic project with which uses Babel 7, Webpack 4 and React.
