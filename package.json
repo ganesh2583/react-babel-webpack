@@ -9,7 +9,7 @@
     "setup": "npm install",
     "build:prod": "webpack -p --progress --config=webpack.prod.js --mode production",
     "start:prod": "webpack -p --progress --config=webpack.prod.js --mode production && babel-node server.js",
-    "lint": "npm eslint"
+    "flow": "flow"
   },
   "author": "Ganesh Chaitanya Kale",
   "license": "MIT",
@@ -28,6 +28,7 @@
     "eslint-plugin-react": "^7.17.0",
     "express": "^4.17.1",
     "file-loader": "^5.0.2",
+    "flow-bin": "^0.115.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.1.2",
