@@ -1,4 +1,4 @@
-# react-babel-webpack
+# react-babel-webpack-eslint
 Simple Boiler Plate with React Babel 7 and Webpack 4. 
 
 Clone the repository and run `npm install`
@@ -49,3 +49,6 @@ This is a basic project with which uses Babel 7, Webpack 4 and React.
 - Webpack-dev-server can be used to run react application in development mode with hot reload. 
 - We have seperate configurations for dev and production mode. Running `npm run build:prod` will generate production build in dist folder. 
 - Dev bundle size is **1.48 MB** when comapred to production build which is only **134 KB**
+
+### ES Lint
+Es Lint is way of setting rules by which we can maintain coding standards. Currently this project is configure with ES lint with Prettier rules using eslint-config-prettier and eslint-plugin-prettier.
