@@ -1,4 +1,4 @@
-# react-babel-webpack-eslint
+# react-babel-webpack-eslint-flow
 Simple Boiler Plate with React Babel 7 and Webpack 4. 
 
 Clone the repository and run `npm install`
@@ -52,3 +52,6 @@ This is a basic project with which uses Babel 7, Webpack 4 and React.
 
 ### ES Lint
 Es Lint is way of setting rules by which we can maintain coding standards. Currently this project is configure with ES lint with Prettier rules using eslint-config-prettier and eslint-plugin-prettier.
+
+### Flow
+Flow is to add static type checking to JS files. 
