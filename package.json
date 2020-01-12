@@ -8,7 +8,8 @@
     "test": "jest",
     "setup": "npm install",
     "build:prod": "webpack -p --progress --config=webpack.prod.js --mode production",
-    "start:prod": "webpack -p --progress --config=webpack.prod.js --mode production && babel-node server.js"
+    "start:prod": "webpack -p --progress --config=webpack.prod.js --mode production && babel-node server.js",
+    "lint" : "npm eslint"
   },
   "author": "Ganesh Chaitanya Kale",
   "license": "MIT",
@@ -18,10 +19,12 @@
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^6.0.3",
     "css-loader": "^3.4.1",
+    "eslint-loader": "^3.0.3",
     "express": "^4.17.1",
     "file-loader": "^5.0.2",
     "node-sass": "^4.13.0",
@@ -34,6 +37,7 @@
   },
   "dependencies": {
     "dotenv-webpack": "^1.7.0",
+    "eslint": "^6.8.0",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

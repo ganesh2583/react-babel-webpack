@@ -1,6 +1,6 @@
 const Dotenv = require("dotenv-webpack");
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 
 module.exports = {
@@ -12,14 +12,14 @@ module.exports = {
     // path: __dirname + "/dist",
     publicPath: "/",
     // filename: "bundle.js",
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
   },
   plugins: [
     //Support Dot Env to read env variables.
     new Dotenv(),
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: "./index.html",
     })
   ],
   // Informing Webpack on which files to use the loader (e.g. .js and jsx files)
@@ -30,7 +30,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         // Use babel loader to load js and jsx files.
-        use: ["babel-loader"]
+        use: ["babel-loader", "eslint-loader"]
       },
       {
         test: /\.(css|scss)$/,
