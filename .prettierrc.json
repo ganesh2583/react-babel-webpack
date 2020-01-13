@@ -1,0 +1,19 @@
+{
+  "max-len": [
+    "error",
+    {
+      "code": 40,
+      "ignoreUrls": true,
+      "ignoreComments" : true
+    }
+  ],
+  "printWidth": 80,
+  "arrowParens": "always",
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": false,
+  "jsxSingleQuote": false,
+  "trailingComma": "es5",
+  "bracketSpacing": false,
+  "jsxBracketSameLine": false
+}
