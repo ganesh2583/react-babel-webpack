@@ -1,9 +1,22 @@
 {
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true,
+    "node": true
+  },
   "parser": "babel-eslint",
-  "extends": ["prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
+  ],
   "plugins": ["prettier", "react"],
   "rules": {
-    "prettier/prettier": ["error"],
-    "react/prop-types": ["error"]
+    "prettier/prettier": "error",
+    "no-console": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
   }
 }
