@@ -1,6 +1,10 @@
-import React, { Component } from "react";
+// @flow
 
-class Root extends Component {
+import React, {Component} from "react";
+
+type Props = {};
+
+class Root extends Component<Props> {
   render() {
     return <React.Fragment>Im root</React.Fragment>;
   }
