@@ -1,13 +1,17 @@
+// @flow
+
 import React from "react";
 import ReactDOM from "react-dom";
 import Root from "./components/Root";
-import "./index.scss"
+import "./index.scss";
 
 const title = "React with Webpack and Babel";
 
-class RootApp extends React.Component {
+type Props = {};
+
+class RootApp extends React.Component<Props> {
   helloWorld = () => {
-    console.log("Hello");
+    //console.log("Hello");
   };
 
   render() {
@@ -15,10 +19,16 @@ class RootApp extends React.Component {
     return (
       <div className="home-page-container">
         <div className="home-page-item">{title}</div>
-        <div className="home-page-item"><Root /></div>
+        <div className="home-page-item">
+          <Root />
+        </div>
       </div>
     );
   }
 }
 
-ReactDOM.render(<RootApp />, document.getElementById("app"));
+const app = document.getElementById("app");
+
+if (app != null) {
+  ReactDOM.render(<RootApp />, app);
+}
