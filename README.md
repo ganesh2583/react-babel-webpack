@@ -8,6 +8,9 @@ Clone the repository and run `npm install`
 Start the application in Dev Mode on port : 8080
 `npm start`
 
+To run tests in the backgroung 
+`npm run test:watch`
+
 ```
 Time: 1540ms
 Built at: 01/04/2020 8:18:44 PM
@@ -58,3 +61,8 @@ Es Lint is way of setting rules by which we can maintain coding standards. Curre
 
 ### Flow
 Flow is to add static type checking to JS files. 
+
+### Jest
+Jest and Enzyme are configured for testing the appliction. Can be run using below commands.
+`npm run test:watch` 
+`npm run test`
