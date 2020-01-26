@@ -8,7 +8,7 @@ Clone the repository and run `npm install`
 Start the application in Dev Mode on port : 8080
 `npm start`
 
-To run tests in the backgroung 
+To run tests in the background 
 `npm run test:watch`
 
 ```
