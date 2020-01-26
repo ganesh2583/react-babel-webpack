@@ -14,7 +14,7 @@
   "plugins": ["prettier", "react"],
   "rules": {
     "prettier/prettier": "error",
-    "no-console": "error"
+    "no-console": "warn"
   },
   "parserOptions": {
     "ecmaVersion": 2018
