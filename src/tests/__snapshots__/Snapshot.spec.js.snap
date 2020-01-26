@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Counter Test onClick increase the count 1`] = `
+<div
+  className="home-page-container"
+>
+  <div
+    className="home-page-item"
+  >
+    React with Webpack and Babel
+  </div>
+  <div
+    className="home-page-item"
+  >
+    Im root
+    <div
+      id="counterId"
+    >
+      Counter = 
+      0
+      <button
+        id="incrementBtn"
+        onClick={[Function]}
+      >
+        Click to increment
+      </button>
+    </div>
+  </div>
+</div>
+`;

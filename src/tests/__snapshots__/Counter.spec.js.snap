@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Counter Test Counter Render on Snapshot 1`] = `
+<div
+  id="counterId"
+>
+  Counter = 
+  0
+  <button
+    id="incrementBtn"
+    onClick={[Function]}
+  >
+    Click to increment
+  </button>
+</div>
+`;
+
+exports[`Test Counter Test onClick increase the count 1`] = `
+<span>
+  Counter = 
+  0
+  <button
+    onClick={[Function]}
+  >
+    Click to increment
+  </button>
+</span>
+`;
