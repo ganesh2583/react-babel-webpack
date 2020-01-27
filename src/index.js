@@ -2,8 +2,8 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Root from "./components/Root";
-import Counter from "./components/Counter";
+import Root from "@/Root";
+import Counter from "@/Counter";
 import "./index.scss";
 
 const title = "React with Webpack and Babel";
